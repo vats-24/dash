@@ -1,0 +1,73 @@
+@import "../../styles/variables.scss";
+
+.home{
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(180px, auto);
+    margin-bottom: 10px;
+
+    .box{
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid $soft-bg;
+    }
+
+    .box1{
+        grid-column: span ;
+        grid-row: span 3;
+    }
+}
+
+.topnav{
+    display: flex;
+}
+
+.topnav input{
+    border: 1px solid $soft-bg;
+    display: flex;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: $main-bg;
+    color: white;
+    margin-right: 5px;
+}
+
+.topnav button{
+    border: 1px solid $soft-bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 70px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: $main-bg;
+    color: white;
+    margin-top: 8px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid $soft-bg;
+  }
+
+.prev, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid $soft-bg;
+}
+
+.charts{
+    display: flex;
+}

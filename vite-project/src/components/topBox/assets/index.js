@@ -1,0 +1,1 @@
+export {default as cristiano} from "./278931269_360124899498969_9006978846103417088_n.jpg"

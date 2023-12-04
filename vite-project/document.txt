@@ -1,0 +1,6 @@
+implementing cron jobs for email analytics
+applying ml model for future prediction of growth
+got the insta statistics api to fetch all the relevant information
+before that tried to hit a normal api to get followers growth using this
+the api will be deployed on cloud and a timer will be set to hit the api at particular time and store the data at that time in the database and plot relevant graph related to it
+
